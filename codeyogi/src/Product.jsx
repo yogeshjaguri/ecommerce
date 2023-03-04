@@ -10,7 +10,7 @@ function Product({ thumbnail, category, title, price, id }) {
       <div className='text-gray-500 text-xs'>{category}</div>
       <div>{title}</div>
       <div className='text-indigo-700'>Rs.{price}</div>
-      <Link className="text-white" to={"/products/" + id}>
+      <Link className="text-black" to={"/products/" + id}>
         View Detail
       </Link>
     </div>
